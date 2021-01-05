@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#44E9DD">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP"
+        android:layout_marginTop="30dp"
+        android:textSize="40sp"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/Code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_margin="@android:dimen/app_icon_size"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:text="Sign In"
+        android:background="#15DC9E"/>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@android:dimen/app_icon_size"/>
+
+</LinearLayout>

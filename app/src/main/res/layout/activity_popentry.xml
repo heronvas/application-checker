@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:background="#7CF2CD">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:inputType="phone"
+        android:hint="Phonenumber"
+        android:id="@+id/pnumber"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="Property/PG name"
+        android:id="@+id/propertyname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="City"
+        android:id="@+id/cityname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="Area/Locality"
+        android:id="@+id/area"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="Owner Name                  (Optional)"
+        android:id="@+id/ownername"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="Preffered Language       (Optional)"
+        android:id="@+id/prefferedlanguage"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/submitted"
+            android:layout_margin="25dp"
+            android:text="submit"
+            android:textSize="15dp"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/submitted"
+            android:layout_margin="25dp"
+            android:text="cancel"
+            android:textSize="15dp"
+            android:id="@+id/cancel"/>
+    </RelativeLayout>
+
+</LinearLayout>
